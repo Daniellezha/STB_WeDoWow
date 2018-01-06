@@ -1,0 +1,16 @@
+@model WeDoWow.Models.UserVisitContext;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<app asp-ng2-prerender-module="ClientApp/dist/main-server">Loading...</app>
+
+<script src="~/dist/vendor.js" asp-append-version="true"></script>
+@section scripts {
+    <script src="~/dist/main-client.js" asp-append-version="true"></script>
+}
+
+<div id="SessionContext" style="display: none">
+    <input id="SessionContext.PreferredLanguage" type="hidden" value="@Model.PreferredLanguages.First()" />
+    <input id="SessionContext.DefaultLanguageApplied" type="hidden" value="@(Model.DefaultPreferredLanguage ? "1" : "0")" />
+</div>
