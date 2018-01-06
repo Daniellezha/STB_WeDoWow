@@ -385,3 +385,4 @@ typings/
 
 # compiles source of project
 wwwroot/dist
+ClientApp/dist
