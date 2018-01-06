@@ -383,3 +383,5 @@ typings/
 # next.js build output
 .next
 
+# compiles source of project
+wwwroot/dist
