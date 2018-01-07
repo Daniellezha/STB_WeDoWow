@@ -384,5 +384,4 @@ typings/
 .next
 
 # compiles source of project
-wwwroot/dist
-ClientApp/dist
+dist/
