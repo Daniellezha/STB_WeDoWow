@@ -5,15 +5,13 @@
   "scripts": {
     "test": "karma start ClientApp/test/karma.conf.js"
   },
-  "devDependencies": {
-    "karma": "^2.0.0",
+  "dependencies": {
+     "karma": "^2.0.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.1.1",
-    "karma-webpack": "^2.0.9"
-  },
-  "dependencies": {
+    "karma-webpack": "^2.0.9"，
     "@angular/animations": "^5.1.3",
     "@angular/common": "^5.1.3",
     "@angular/compiler": "^5.1.3",
